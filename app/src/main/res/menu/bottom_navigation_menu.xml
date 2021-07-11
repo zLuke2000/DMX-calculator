@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dip_switch"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="DIP SWITCH" />
+    <item
+        android:id="@+id/navigation_list_fixture"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_light"
+        android:title="FIXTURE LIST" />
+    <item
+        android:id="@+id/navigation_new_fixture"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add"
+        android:title="FIXTURE ADD" />
+    <item
+        android:id="@+id/navigation_list_project"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_list"
+        android:title="PROJECT LIST" />
+    <item
+        android:id="@+id/navigation_new_project"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add"
+        android:title="PROJECT ADD" />
+</menu>

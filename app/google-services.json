@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671214141943",
+    "project_id": "dmx-calc",
+    "storage_bucket": "dmx-calc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671214141943:android:7e5ec5e5466947e2a8aef2",
+        "android_client_info": {
+          "package_name": "it.uninsubria.dmx_calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671214141943-5vvbffsfvsvs2cnokjjdq56kgn9qbb17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDT3bpB1MXJZrWs8zOqDK04SJoqJwWdiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671214141943-5vvbffsfvsvs2cnokjjdq56kgn9qbb17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
