@@ -3,15 +3,15 @@
 App per la gestione dell'illuminazione negli spettacoli.
 
 Quest'app è divisa in 3 sezioni
-- [Convertitore Dip-Switch](#Convertitore Dip-Switch)
-- [Gestore Fixture](#Gestore Fixture)
-- [Gestore Show](#Gestore Show)
+- [Convertitore Dip-Switch](#Convertitore_Dip-Switch)
+- [Gestore Fixture](#Gestore_Fixture)
+- [Gestore Show](#Gestore_Show)
 
-# Convertitore Dip-Switch
+# Convertitore_Dip-Switch
   ### Funzionalità
   Consente di convertire un numero intero in numero binario, per facilitare l'assegnamento dell'indirizzo DMX a tutte le fixture senza display
   
-# Gestore Fixture
+# Gestore_Fixture
   Consente di creare una nuova fixture, composta da:
   * Nome
   * Produttore
@@ -35,7 +35,7 @@ Quest'app è divisa in 3 sezioni
   * Modificare la fixture selezionata
   * Eliminare la fixture selezionata
   
-# Gestore Show
+# Gestore_Show
 * Consente di vedere la lista completa di tutte le fixture associate allo show selezionato, fornendo:
   * Tipologia di fixture utilizzate
   * Quantità di fixture utilizzate
