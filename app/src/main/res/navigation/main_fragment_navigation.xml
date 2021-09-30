@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_fragment_navigation"
+    app:startDestination="@+id/navigation_dip_switch">
+
+    <fragment
+        android:id="@+id/navigation_dip_switch"
+        android:name="it.uninsubria.dmx_calculator.fragments.main.DipSwitchFragment"
+        android:label="DIP-SWITCH"
+        tools:layout="@layout/fragment_dip_switch" />
+
+    <fragment
+        android:id="@+id/navigation_list_fixture"
+        android:name="it.uninsubria.dmx_calculator.fragments.main.fixture.ListFixtureFragment"
+        android:label="LIST-FIXTURE"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_new_fixture"
+        android:name="it.uninsubria.dmx_calculator.fragments.main.fixture.NewFixtureFragment"
+        android:label="NEW-FIXTURE"
+        tools:layout="@layout/fragment_new_fixture" />
+
+    <fragment
+        android:id="@+id/navigation_list_project"
+        android:name="it.uninsubria.dmx_calculator.fragments.main.project.ListProjectFragment"
+        android:label="LIST-PROJECT"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/navigation_new_project"
+        android:name="it.uninsubria.dmx_calculator.fragments.main.project.NewProjectFragment"
+        android:label="NEW-PROJECT"
+        tools:layout="@layout/fragment_new_project" />
+</navigation>

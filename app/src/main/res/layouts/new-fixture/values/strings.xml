@@ -1,0 +1,38 @@
+<resources>
+    <string name="nfName">name</string>
+    <string name="nfManufacturer">manufacturer</string>
+    <string name="nfMode">mode</string>
+    <string name="nfFootprint">footprint</string>
+    <string name="nfPowerConsumption">power consumption</string>
+    <!-- FIXTURE TYPE -->
+    <string name="nfTypeSelection">select fixture type</string>
+    <string name="nfType_spot">Spot</string>
+    <string name="nfType_wash">Wash</string>
+    <string name="nfType_beam">Beam</string>
+    <string name="nfType_profile">Profile</string>
+    <!-- LAMP TYPE -->
+    <string name="nfLampTypeSelection">select lamp type</string>
+    <string name="nfLampType_discharge">discharge</string>
+    <string name="nfLampType_led">LED</string>
+    <string name="nfLampType_laser">laser</string>
+    <string name="nfLampType_incandescent">incandescent</string>
+    <string name="nfLampType_halogen">halogen</string>
+    <string name="nfLampType_fluorescent">fluorescent</string>
+    <!-- ZOOM INFORMATION -->
+    <string name="nfZoomInfo">zoom information</string>
+    <string name="nfMinZoom">minimum zoom</string>
+    <string name="nfMaxZoom">maximum zoom</string>
+    <!-- BUTTON -->
+    <string name="nfSave">SAVE FIXTURE</string>
+    <string name="nfValidate">Validate</string>
+    <!-- TOAST -->
+    <string name="nfSaveOK">SAVE OK</string>
+    <string name="nfSaveKO">SAVE KO</string>
+    <string name="nfValidationOK">Validation OK</string>
+    <string name="nfValidationKO">validation KO</string>
+    <!-- POPUP DIALOG -->
+    <string name="nfChoseManufacturer">Chose Manufacturer</string>
+    <!-- DIVIDER -->
+    <string name="nfModeInformation">mode information</string>
+    <string name="nfPowerInformation">power information</string>
+</resources>

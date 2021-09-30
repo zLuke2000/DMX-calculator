@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintsLayoutOut"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".fragments.main.DipSwitchFragment">
+
+
+    <TableLayout
+        android:id="@+id/TL_numberSelector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/TR_upValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/up_base_100"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:src="@drawable/ic_baseline_arrow_up"
+                android:background="@drawable/button_style"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/up_base_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:src="@drawable/ic_baseline_arrow_up"
+                android:background="@drawable/button_style"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/up_base_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:src="@drawable/ic_baseline_arrow_up"
+                android:background="@drawable/button_style"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TR_CurrentValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/value_base_100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/defaultStartingValue"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/value_base_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/defaultStartingValue"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/value_base_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/defaultStartingValue"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TR_downValue"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/down_base_100"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:src="@drawable/ic_baseline_arrow_down"
+                android:background="@drawable/button_style"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/down_base_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:src="@drawable/ic_baseline_arrow_down"
+                android:background="@drawable/button_style"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/down_base_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:minHeight="64dp"
+                android:minWidth="64dp"
+                android:src="@drawable/ic_baseline_arrow_down"
+                android:background="@drawable/button_style"
+                tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TL_numberSelector">
+
+        <TextView
+            android:id="@+id/TV_number_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/TV_number_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/defaultStartingValue"
+            android:textAlignment="center"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

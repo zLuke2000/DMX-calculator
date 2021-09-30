@@ -1,0 +1,7 @@
+<resources>
+    <string name="fi_template" translatable="false">template</string>
+    <string name="fi_powerConsumption">power consumption:</string>
+    <string name="fi_fixtureType">fixture type:</string>
+    <string name="fi_lampType">lamp type:</string>
+    <string name="fi_fixtureMode">mode:</string>
+</resources>

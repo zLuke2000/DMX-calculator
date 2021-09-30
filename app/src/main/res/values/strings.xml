@@ -1,53 +1,24 @@
 <resources>
     <string name="app_name">DMX Calc</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- MAIN ACTIVITY BOTTOM BAR -->
+    <string name="dip_switch" translatable="false">DIP SWITCH</string>
+    <string name="fixture_list">FIXTURE LIST</string>
+    <string name="new_fixture">NEW FIXTURE</string>
+    <string name="project_list">PROJECT LIST</string>
+    <string name="new_project">NEW PROJECT</string>
 
-    <!-- DIP-SWITCH string -->
-    <string name="defaultStartingValue">0</string>
-    <string name="dipON">ON</string>
-    <string name="dipOFF">OFF</string>
-    <string name="plus8">+8</string>
-    <string name="plus16">+16</string>
-    <string name="plus32">+32</string>
-    <string name="minus8">-8</string>
-    <string name="minus16">-16</string>
-    <string name="minus32">-32</string>
-
-    <!-- ROW string -->
-    <string name="template">template</string>
-
-    <!-- NEW FIXTURE -->
-    <string name="nfName">name</string>
-    <string name="nfManufacturer">manufacturer</string>
-    <string name="nfMode">mode</string>
-    <string name="nfFootprint">footprint</string>
-    <string name="nfPowerConsumption">power consumption</string>
-        <!-- FIXTURE TYPE -->
-        <string name="fixtureTypeSelection">select fixture type</string>
-        <string name="fixtureType_spot">Spot</string>
-        <string name="fixtureType_wash">Wash</string>
-        <string name="fixtureType_beam">Beam</string>
-        <string name="fixtureType_profile">Profile</string>
-        <!-- LAMP TYPE -->
-        <string name="lampTypeSelection">select lamp type</string>
-        <string name="lampType_discharge">discharge</string>
-        <string name="lampType_led">LED</string>
-        <string name="lampType_incandescent">incandescent</string>
-        <string name="lampType_halogen">halogen</string>
-        <string name="lampType_fluorescent">fluorescent</string>
-    <string name="save_fixture">SAVE FIXTURE</string>
-
-    <!-- NEW PROJECT -->
-
-
+    <!-- FIXTURE / PROJECT ROW -->
+    <string name="template" translatable="false">template</string>
 
     <!-- ERROR -->
     <string name="minChar">minimum: $ characters</string>
     <string name="maxChar">maximum: $ characters</string>
+    <string name="notBlank">cannot be blank</string>
     <string name="onlyNumber">only number</string>
-    <string name="numberTooHigh">DMX limit: 512</string>
-    <string name="fixtureSaveOK">SAVE OK</string>
-    <string name="fixtureSaveKO">SAVE KO</string>
-
+    <string name="numberTooHigh">DMX limit: $</string>
+    <string name="onlyPositiveNumber">Must be positive</string>
+    <string name="duplicate_mode">duplicate mode</string>
+    <string name="discrepancy">discrepancy</string>
+    <string name="mustBe">must be</string>
 </resources>

@@ -1,10 +1,6 @@
 package it.uninsubria.dmx_calculator
 
-import android.graphics.Color.GRAY
 import android.os.Bundle
-import android.view.View
-import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
@@ -12,21 +8,24 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import it.uninsubria.dmx_calculator.databinding.ActivityMainBinding
 
+@Suppress("unused")
+private const val TAG = "Main_Activity"
 
 class MainActivity : AppCompatActivity() {
-
-    private val TAG = "Main Activity"
+    private lateinit var binding: ActivityMainBinding
 
     private lateinit var bottomNavView: BottomNavigationView
     private lateinit var navController: NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        bottomNavView = findViewById(R.id.bottom_navigation_view)
-        navController = findNavController(R.id.nav_host_fragment)
+        bottomNavView = binding.BNVMainActivity
+        navController = findNavController(R.id.HF_mainActivity)
 
         val navBarConfiguration = AppBarConfiguration(setOf(R.id.navigation_dip_switch,
                                                             R.id.navigation_list_fixture,

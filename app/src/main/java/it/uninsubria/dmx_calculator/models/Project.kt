@@ -1,7 +1,10 @@
 package it.uninsubria.dmx_calculator.models
 
-data class Project(var name: String, var fixtureList: List<Fixture>) {
+import java.io.Serializable
 
+data class Project(var name: String, var location: String, var availablePower: Int, var fixtureList: MutableList<FixturePatch>): Serializable {
+/*
+    @Suppress("unused")
     fun getTotalPowerConsumption(): Int {
         var currentPower = 0
         for(fixture in fixtureList) {
@@ -10,15 +13,16 @@ data class Project(var name: String, var fixtureList: List<Fixture>) {
         return currentPower
     }
 
+    @Suppress("unused")
     fun getTotalDMXChannel(): Int {
         var currentChannel = 0
-        for(fixture in fixtureList) {
-            currentChannel += fixture.footprint
-        }
+        //TODO Calcolo in base alla modalità utilizzata
         return currentChannel
     }
 
+    @Suppress("unused")
     fun getTotalFixtureNumber(): Int {
         return fixtureList.size
     }
+ */
 }

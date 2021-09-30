@@ -1,0 +1,61 @@
+<resources>
+    <!-- NEW PROJECT -->
+    <string name="npName">name</string>
+    <string name="npLocation">location</string>
+    <string name="npFixtureList">fixture list</string>
+    <string name="npMaxPower">maximum power available</string>
+    <string name="npwhite">WHITE</string>
+    <string name="npSave">SAVE PROJECT</string>
+    <string name="npValidate">Validate</string>
+    <string name="npImage">image</string>
+
+    <!-- DIALOG -->
+    <string name="fpdID">ID</string>
+    <string name="fpdName">Name</string>
+    <string name="fdpManufacturer">Select Manufacturer</string>
+    <string name="fpdType">Select Fixture</string>
+    <string name="fpdMode">Select Mode</string>
+    <string name="fpdUniverse">Universe</string>
+    <string name="fpdPatch">Starting address</string>
+    <string name="fpdQuantity">Quantity</string>
+    <string name="fdpSavePatch">SAVE PATCH</string>
+    <string name="fdpSave">SAVE</string>
+    <string name="fdpUpdateID">UPDATE ID</string>
+    <string name="fdpUpdateName">UPDATE NAME</string>
+    <string name="fdpOldID">Old ID: </string>
+    <string name="fdpNewID">New id</string>
+    <string name="fdpOldName">Old Name: </string>
+    <string name="fdpNewName">New Name</string>
+
+    <!-- COLOR ARRAY -->
+    <string-array name="colorsName">
+        <item>WHITE</item>
+        <item>RED</item>
+        <item>ORAGNE</item>
+        <item>YELLOW</item>
+        <item>FERN GREEN</item>
+        <item>GREEN</item>
+        <item>SEA GREEN</item>
+        <item>CYAN</item>
+        <item>LAVENDER</item>
+        <item>BLUE</item>
+        <item>VIOLET</item>
+        <item>MAGENTA</item>
+        <item>PINK</item>
+    </string-array>
+    <string-array name="colorsCode">
+        <item>#FFFFFF</item>
+        <item>#FF0000</item>
+        <item>#FF8000</item>
+        <item>#FFFF00</item>
+        <item>#80FF00</item>
+        <item>#00FF00</item>
+        <item>#00FF80</item>
+        <item>#00FFFF</item>
+        <item>#0080FF</item>
+        <item>#0000FF</item>
+        <item>#8000FF</item>
+        <item>#FF0080</item>
+        <item>#FF00FF</item>
+    </string-array>
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/TV_nprFixID"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/template" />
+
+    <TextView
+        android:id="@+id/TV_nprFixName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/template" />
+
+    <TextView
+        android:id="@+id/TV_nprFixData"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/template" />
+
+    <TextView
+        android:id="@+id/TV_nprFixDMX"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/template" />
+
+    <ImageButton
+        android:id="@+id/IB_nprFixPanInversion"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/ic_baseline_check_no"
+        tools:ignore="contentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/IB_nprFixTiltInversion"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/ic_baseline_check_no"
+        tools:ignore="contentDescription,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/TV_nprFixColorGel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/npwhite"
+        android:textColor="@color/gel_white" />
+
+    <ImageButton
+        android:id="@+id/IB_nprBOReact"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/ic_baseline_check_yes"
+        tools:ignore="contentDescription,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/IB_removeFixture"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:backgroundTint="@android:color/transparent"
+        android:minWidth="32dp"
+        app:srcCompat="@drawable/ic_baseline_remove"
+        app:tint="@color/red_A700"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+</TableRow>
